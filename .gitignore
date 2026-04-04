@@ -1,0 +1,26 @@
+cat <<EOF > .gitignore
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+_pycache_/
+*.pyc
+
+# Arduino / Embedded build files
+*.ino.cpp
+*.hex
+*.elf
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+
+# Wokwi backups
+diagram.json.bak
+EOF
